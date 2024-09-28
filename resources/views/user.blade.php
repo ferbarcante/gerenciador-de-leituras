@@ -12,3 +12,12 @@
 @elseif($user->name === 'Shane Wehner')
     {{$user->name}}
  @endif
+
+ <br>
+
+ @php
+    $total = 1;
+@endphp
+ @empty($total)
+    Vazio
+ @endempty
